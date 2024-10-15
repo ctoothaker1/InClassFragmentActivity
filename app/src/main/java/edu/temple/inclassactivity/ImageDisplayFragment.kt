@@ -32,6 +32,7 @@ class ImageDisplayFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         // The inflated layout file is returned to the parent/host and displayed to the user
         return inflater.inflate(R.layout.fragment_image_display, container, false)
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
