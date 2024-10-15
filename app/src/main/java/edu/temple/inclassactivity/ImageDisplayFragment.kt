@@ -16,7 +16,7 @@ const val IMAGES_KEY = "imageList"
 
 class ImageDisplayFragment : Fragment() {
 
-    private lateinit var images: IntArray
+    private lateinit var images: IntArray // exception - remove android name in xml
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
